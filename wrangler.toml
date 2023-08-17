@@ -1,0 +1,3 @@
+name = "c3-worker-websocket" # todo
+main = "./index.ts"
+compatibility_date = "2022-05-03"

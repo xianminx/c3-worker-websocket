@@ -1,0 +1,15 @@
+{
+	"name": "template-worker-websocket",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy index.ts",
+		"dev": "wrangler dev index.ts --local",
+		"start-stackblitz": "WRANGLER_SEND_METRICS=false wrangler dev index.ts --local"
+	},
+	"devDependencies": {
+		"@cloudflare/workers-types": "^4.20230518.0 ",
+		"vitest": "^0.34.1",
+		"wrangler": "^3.5.1"
+	}
+}
